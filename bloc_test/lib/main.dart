@@ -9,13 +9,17 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  GlobalKey<ScaffoldState> scaffoldKey = GlobalKey();
   @override
   Widget build(BuildContext parentContext) {
     return MaterialApp(
         home: Scaffold(
+      key: scaffoldKey,
       body: BlocProvider<CounterCubit>(
         create: (context) => CounterCubit(),
-        child: MyWidget(),
+        child: MyWidget(
+          scaffoldKey: scaffoldKey,
+        ),
       ),
     ));
   }
@@ -24,23 +28,41 @@ class MyApp extends StatelessWidget {
 class MyWidget extends StatelessWidget {
   const MyWidget({
     Key key,
+    @required this.scaffoldKey,
   }) : super(key: key);
-
+  final GlobalKey<ScaffoldState> scaffoldKey;
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           IconButton(
               icon: Icon(Icons.add),
               onPressed: () {
                 context.read<CounterCubit>().incrementCounter();
               }),
-          BlocBuilder<CounterCubit, CounterState>(
+          BlocConsumer<CounterCubit, CounterState>(
+            listener: (context, state) {
+              if (state.wasIncremented) {
+                scaffoldKey.currentState.showSnackBar(SnackBar(
+                    duration: Duration(milliseconds: 200),
+                    content: Text("Incremented")));
+              } else if (state.wasIncremented == false) {
+                scaffoldKey.currentState.showSnackBar(SnackBar(
+                    duration: Duration(milliseconds: 200),
+                    content: Text("Decremented")));
+              }
+            },
             builder: (context, state) {
               return Text("${state.counterValue}");
             },
           ),
+          IconButton(
+              icon: Icon(Icons.remove),
+              onPressed: () {
+                context.read<CounterCubit>().decrementCounter();
+              }),
         ],
       ),
     );

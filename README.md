@@ -1,7 +1,7 @@
 # Kukuza Interface
 An open source interface for the Kukuza DAO.
 
-## Workflow for the Core Team
+## A. Workflow for the Core Team
 
 ### 1. Structure and Projects
 The Kukuza app v1 is organized in 14 different areas or epics. We use GitHub projects to organize the development of those epics. 

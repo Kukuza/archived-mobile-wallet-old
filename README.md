@@ -20,7 +20,7 @@ For the actual workflow, each of the 14 epics has its ownn Kanban board project 
 ### 2. Working with User Stories
 - Development is driven by user stories.
 - A user story is a GitHub issue labeled "story".
-- A user story issue will evolve over time. E.g. designs (links and screenshots) will be added to the description.
+- User story issues evolve over time. E.g. designs (links and screenshots) will be added to the description.
 - Each user story needs to be in 2 projects, the [User Story Mapping v1](https://github.com/Kukuza/kukuza-interface/projects/1) project and the respective Kanban project.
 - During development, story issues will be moved through the Kanban board.
 - Stories can only be in one Kanban colum at a time.

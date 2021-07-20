@@ -3,7 +3,25 @@ An open source interface for the Kukuza DAO.
 
 ## A. Workflow for the Core Team
 
-### 1. Structure and Projects
+### 1. Team
+When assigning and reassign
+**Product Management:**
+- [@steffenkrogmann](https://github.com/steffenkrogmann)
+- [@steffenkrogmann](https://github.com/steffenkrogmann)
+
+**Design:**
+- [@steffenkrogmann](https://github.com/steffenkrogmann)
+
+**Front End Development/Flutter:**
+- [@steffenkrogmann](https://github.com/steffenkrogmann)
+- [@steffenkrogmann](https://github.com/steffenkrogmann)
+
+**Backend Development/Smart Contracts:**
+- [@steffenkrogmann](https://github.com/steffenkrogmann)
+
+<br/>
+
+### 2. Organization and Structure of the App
 The Kukuza app v1 is organized in 14 different areas or epics. We use GitHub projects to organize the development of those epics. 
 The project [User Story Mapping v1](https://github.com/Kukuza/kukuza-interface/projects/1) gives an overview and contains all user stories. Each column lists the stories for one of the 14 epics.
 
@@ -18,7 +36,7 @@ For the actual workflow, each of the 14 epics has its ownn Kanban board project 
 
 <br/>
 
-### 2. Working with User Stories
+### 3. Working with User Stories
 - Development is driven by user stories.
 - A user story is a GitHub issue labeled "story".
 - User story issues evolve over time. E.g. designs (links and screenshots) will be added to the description.
@@ -31,12 +49,12 @@ For the actual workflow, each of the 14 epics has its ownn Kanban board project 
 
 <br/>
 
-### 3. Ownership, Thrashing, Reviews, and Approvals
+### 4. Ownership, Thrashing, Reviews, and Approvals
 asd
 
 <br/>
 
-### 4. Backend Integration and APIs
+### 5. Backend Integration and APIs
 - Most user stories need APIs to make them work.
 - APIs are separate issues. They are not user stories. 
 - Front end developers create issues, API requests, for the APIs they need. 
@@ -45,23 +63,5 @@ asd
 
 <br/>
 
-### 5. Testing and Closing Stories
-asd
-
-<br/>
-
-### 6. Core Team
-When assigning and reassign
-**Product Management:**
-- @steffenkrogmann
-
-
-**Design:**
-
-
-**Front End Development/Flutter:**
-
-
-**Backend Development/Smart Contracts:**
-
+### 6. Testing and Closing Stories
 asd

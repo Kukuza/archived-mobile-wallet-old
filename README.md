@@ -28,8 +28,32 @@ For the actual workflow, each of the 14 epics has its ownn Kanban board project 
 - Don't close story issues. Just reassign them and move them forward through the Kanban boards.
 - Story issues can only be closed after successful testing by Product Management.
 
-### 3. Projects
+### 3. Ownership, Thrashing, Reviews, and Approvals
 asd
 
-### 1. Projects
+### 4. Backend Integration and APIs
+- Most user stories need APIs to make them work.
+- APIs are separate issues. They are not user stories. 
+- Front end developers create issues, API requests, for the APIs they need. 
+- API request issues need to be labeled "API" and assigned to all backend/smart contract developers.
+- API requests can be created after the "2. Wireframing" stage (when a story is in "3. Designing"). 
+
+
+### 5. Testing and Closing Stories
+asd
+
+### 6. Core Team
+Use the following blablabla
+
+**Product Management:**
+
+
+**Design:**
+
+
+**Front End Development/Flutter:**
+
+
+**Backend Development/Smart Contracts:**
+
 asd

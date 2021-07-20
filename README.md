@@ -6,18 +6,19 @@ An open source interface for the Kukuza DAO.
 ### 1. Team
 When assigning and reassign
 **Product Management:**
-- [@steffenkrogmann](https://github.com/steffenkrogmann)
-- [@steffenkrogmann](https://github.com/steffenkrogmann)
+- [@SteffenKrogmann](https://github.com/SteffenKrogmann)
+- [@CynthiaAdhiambo](https://github.com/CynthiaAdhiambo)
 
 **Design:**
-- [@steffenkrogmann](https://github.com/steffenkrogmann)
+- [@ChegeMartinx](https://github.com/ChegeMartinx)
 
 **Front End Development/Flutter:**
-- [@steffenkrogmann](https://github.com/steffenkrogmann)
-- [@steffenkrogmann](https://github.com/steffenkrogmann)
+- [@George-Kihara](https://github.com/George-Kihara)
+- [@Wamwea](https://github.com/Wamwea)
 
 **Backend Development/Smart Contracts:**
-- [@steffenkrogmann](https://github.com/steffenkrogmann)
+- [@krypt007](https://github.com/krypt007)
+- [@okothhc](https://github.com/okothhc)
 
 <br/>
 

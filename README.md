@@ -17,6 +17,7 @@ For the actual workflow, each of the 14 epics has its ownn Kanban board project 
 7. Done
 
 
+
 ### 2. Working with User Stories
 - Development is driven by user stories.
 - A user story is a GitHub issue labeled "story".
@@ -27,6 +28,8 @@ For the actual workflow, each of the 14 epics has its ownn Kanban board project 
 - Kanban columns reflect the current activitiy. Example: When the design for a story is in progress, the story should be in the column "3. Designing".
 - Don't close story issues. Just reassign them and move them forward through the Kanban boards.
 - Story issues can only be closed after successful testing by Product Management.
+
+
 
 ### 3. Ownership, Thrashing, Reviews, and Approvals
 asd

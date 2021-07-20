@@ -51,10 +51,9 @@ asd
 <br/>
 
 ### 6. Core Team
-Use the following blablabla
-
-
+When assigning and reassign
 **Product Management:**
+- @steffenkrogmann
 
 
 **Design:**

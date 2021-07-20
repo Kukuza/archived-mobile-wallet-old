@@ -5,7 +5,7 @@ An open source interface for the Kukuza DAO.
 
 ### 1. Structure and Projects
 asd
-https://github.com/Kukuza/kukuza-interface/projects/1
+[User Story Mapping v1](https://github.com/Kukuza/kukuza-interface/projects/1)
 
 ### 1. Projects
 asd

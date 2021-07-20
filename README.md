@@ -1,5 +1,16 @@
-# kukuza-interface
-An open source interface for the Kukuza protocol
+# Kukuza Interface
+An open source interface for the Kukuza DAO.
 
-## Workflow
-tbd
+## Workflow for the Core Team
+
+### 1. Projects
+asd
+
+### 1. Projects
+asd
+
+### 1. Projects
+asd
+
+### 1. Projects
+asd

@@ -16,7 +16,7 @@ For the actual workflow, each of the 14 epics has its ownn Kanban board project 
 6. Testing
 7. Done
 
-<br/><br/>
+<br/>
 
 
 ### 2. Working with User Stories

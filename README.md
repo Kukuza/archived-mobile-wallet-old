@@ -66,3 +66,5 @@ asd
 
 ### 6. Testing and Closing Stories
 asd
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrRWVtsylcotAotY?backgroundColor=cyan&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
